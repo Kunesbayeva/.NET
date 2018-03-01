@@ -1,0 +1,43 @@
+@model Order
+
+
+<table class="table">
+    <tbody>
+    <tr>
+        <th>Row</th>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th>Origin City</th>
+        <td>@Model.CityPair.OriginCity</td>
+    </tr>
+    <tr>
+        <th>Destination City</th>
+        <td>@Model.CityPair.DestinationCity</td>
+    </tr>
+    <tr>
+        <th>Price for transportation</th>
+        <td>@Model.CityPair.DeliveryPrice (KZT)</td>
+    </tr>
+    <tr>
+        <th>Due Date</th>
+        <td>@DateTime.Parse(Model.DueDate).Day-@DateTime.Parse(Model.DueDate).Month-@DateTime.Parse(Model.DueDate).Year</td>
+    </tr>
+    <tr>
+        <th>Weight</th>
+        <td>@Model.WeightTypes.LowerWeight-@Model.WeightTypes.UpperWeight (kg) -> @Model.WeightTypes.Price (KZT)</td>
+    </tr>
+    <tr>
+        <th>Delivery Type</th>
+        <td>@Model.DeliveryType.Type -> @Model.DeliveryType.Price (KZT)</td>
+    </tr>
+    <tr>
+        <th>Total Price</th>
+        <td>@(Model.DeliveryType.Price + Model.WeightTypes.Price + Model.CityPair.DeliveryPrice) (KZT)</td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td>@Model.Status</td>
+    </tr>
+    </tbody>
+</table>
