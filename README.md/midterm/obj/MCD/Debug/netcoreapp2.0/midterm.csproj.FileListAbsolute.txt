@@ -1,0 +1,10 @@
+C:\Users\Dinara1\Desktop\midterm\bin\MCD\Debug\netcoreapp2.0\midterm.deps.json
+C:\Users\Dinara1\Desktop\midterm\bin\MCD\Debug\netcoreapp2.0\midterm.runtimeconfig.json
+C:\Users\Dinara1\Desktop\midterm\bin\MCD\Debug\netcoreapp2.0\midterm.runtimeconfig.dev.json
+C:\Users\Dinara1\Desktop\midterm\bin\MCD\Debug\netcoreapp2.0\midterm.dll
+C:\Users\Dinara1\Desktop\midterm\bin\MCD\Debug\netcoreapp2.0\midterm.pdb
+C:\Users\Dinara1\Desktop\midterm\obj\MCD\Debug\netcoreapp2.0\midterm.csproj.CoreCompileInputs.cache
+C:\Users\Dinara1\Desktop\midterm\obj\MCD\Debug\netcoreapp2.0\midterm.AssemblyInfoInputs.cache
+C:\Users\Dinara1\Desktop\midterm\obj\MCD\Debug\netcoreapp2.0\midterm.AssemblyInfo.cs
+C:\Users\Dinara1\Desktop\midterm\obj\MCD\Debug\netcoreapp2.0\midterm.dll
+C:\Users\Dinara1\Desktop\midterm\obj\MCD\Debug\netcoreapp2.0\midterm.pdb
